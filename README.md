@@ -3,7 +3,7 @@ This repo contains the code for NNME and other methods (e.g. Gaussian Process re
 
 * [Sea_level](Sea_level): a real data set measures sea level over past 2000 years (Cahill et al. (2015)). The age has measurement error.
 
-* [Framingham_Heart](Framingham_Heart): predict whether the patient will have coronary heart disease (CHD) in 10 years. It has 15 attributes of patients but the covariates of interest here is systolic blood pressure (SBP) and logarithm of the total cholesterol level (Chol). Both of them have measurement errors (Carroll et al. (2006)). The data set was downloaded from https://www.kaggle.com/dileep070/heart-disease-prediction-using-logistic-regression.
+* [Framingham_Heart](Framingham_Heart): the goal of Framingham heart study is to predict whether the patient will have coronary heart disease (CHD) in 10 years. The data set has 15 attributes of patients but the covariates of interest here are systolic blood pressure (SBP) and logarithm of the total cholesterol level (Chol). Both of them have measurement errors (Carroll et al. (2006)). The data set was downloaded from https://www.kaggle.com/dileep070/heart-disease-prediction-using-logistic-regression.
 
 * [Simulation_GP](Simulation_GP): simulations based on variants of Gaussian process.
 
