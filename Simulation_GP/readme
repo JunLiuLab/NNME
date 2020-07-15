@@ -1,0 +1,8 @@
+This directory contains: 1) python scripts for NNME with different specification of prior X; 2) R script for generating simulation data from the maximum of two Gaussian processes with different scales of RBF kernel (Example 3-2) and one-dimensional GP (Example 2); and 3) Fitting by Gaussian Process (KILE and KALE).
+
+simu_GP_max.R: generating simulation data for Example 3-2 and the plots.
+simu_: fitting by KILE or KALE.
+vae_mc4-1-priorx_true_param.py: using the true distribution of X.
+vae_mc4-1-learn-priorx.py: estimating the prior distribution of X using NICE.  
+vae_mc4-1-priorx_param.py: Assume mixtures of Gaussian as the prior distribution for X.
+vae_mc4-1_t3.py: Assume a t_3 prior distrbution. 
